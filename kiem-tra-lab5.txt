@@ -1,0 +1,26 @@
+Họ tên: Nguyễn Xuân Minh
+Mã SV: 2071020134
+Lớp: 20-02
+
+Kết quả T01–T08 (bài luyện Lab 5)
+T01 | 320/768/1280px | 320px: menu tự xuống dòng, không thấy tràn ngang; 768px: 2 cột; 1280px: 3 cột | ĐẠT qua quan sát | Ảnh từng kích thước chưa lưu
+T02 | 767–768px và 1023–1024px | Đã xem 768px và 1280px; chưa kiểm tra đủ bốn mép breakpoint | CHƯA ĐỦ | Chưa có ảnh
+T03 | Tab/Shift+Tab/Enter | Tab đến brand và mục menu đầu; viền focus cam, nét liền, nhìn rõ. Chưa kiểm tra Shift+Tab/Enter | MỘT PHẦN | Quan sát live preview
+T04 | Hover/active/card focus | Selector và trạng thái có trong CSS; chưa xác nhận đủ hành vi bằng thao tác | CHƯA ĐỦ | Chưa có ảnh
+T05 | Gửi rỗng/email sai | Email sai bị trình duyệt chặn và hiện thông báo bản địa; chưa kiểm tra gửi rỗng | MỘT PHẦN | minh-chung/nv4-form.png
+T06 | Họ tên 1 ký tự/nội dung 9 ký tự | HTML đặt minlength lần lượt là 2 và 10; chưa kiểm tra nhập thực tế | CHƯA ĐỦ | Chưa có ảnh
+T07 | Nội dung trên 500 ký tự | HTML đặt maxlength là 500; chưa kiểm tra nhập thực tế | CHƯA ĐỦ | Chưa có ảnh
+T08 | Dữ liệu giả hợp lệ | Chưa kiểm tra chuyển tới ket-qua.html | CHƯA KIỂM TRA | Chưa có ảnh
+
+Một lỗi đã sửa
+Bước tái hiện: đối chiếu minlength của Họ tên với PDF.
+Nguyên nhân: giá trị trước đó là 3, trong khi PDF yêu cầu tối thiểu 2 ký tự.
+Sửa: đổi minlength thành 2.
+Kiểm tra lại: đối chiếu lại HTML với PDF; chưa kiểm tra nhập một ký tự trên trình duyệt.
+
+Áp dụng Portfolio
+Chưa thực hiện: thư mục hiện có bài mẫu bai-tap-lab5, chưa có Portfolio V4 để chuyển selector mẫu sang selector cá nhân.
+
+Sử dụng AI
+Phần dùng: đối chiếu yêu cầu PDF và hỗ trợ chỉnh CSS/HTML.
+Cách tự kiểm chứng: đối chiếu các ô được đánh số với PDF và quan sát trang trong preview; các ca ghi CHƯA KIỂM TRA cần chạy thêm.
